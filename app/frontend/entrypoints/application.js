@@ -2,8 +2,8 @@ import "./main.scss";
 
 import React, {createElement} from 'react';
 import { createRoot } from 'react-dom/client';
-import App from '@/components/views/home';
+import Main from '@/components/views/main';
 
-const domContainer = document.querySelector('#home');
+const domContainer = document.getElementById('main');
 const home = createRoot(domContainer);
-home.render(createElement(App));
+home.render(createElement(Main));

@@ -6,6 +6,7 @@ module.exports = {
     './app/frontend/**/*.{vue,js,ts,jsx,tsx}',
     './app/**/*.{vue,js,ts,jsx,tsx}',
   ],
+  darkMode: 'class',
   theme: {
     extend: {},
   },

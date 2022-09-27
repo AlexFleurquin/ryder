@@ -94,6 +94,8 @@ GEM
     dry-cli (0.7.0)
     erubi (1.11.0)
     ffi (1.15.5)
+    font-awesome-sass (6.2.0)
+      sassc (~> 2.0)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.12.0)
@@ -180,6 +182,8 @@ GEM
     ruby-vips (2.1.4)
       ffi (~> 1.12)
     rubyzip (2.3.2)
+    sassc (2.4.0)
+      ffi (~> 1.9)
     selenium-webdriver (4.4.0)
       childprocess (>= 0.5, < 5.0)
       rexml (~> 3.2, >= 3.2.5)
@@ -229,6 +233,7 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  font-awesome-sass (~> 6.2.0)
   image_processing (~> 1.2)
   jbuilder
   pg (~> 1.1)

@@ -1,7 +1,15 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
-@import "./stylesheets/global";
-@import "./stylesheets/buttons";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@import "tailwindcss/utilities";
+@layer base {
+  html {
+    h1, h2, h3, h4 {
+      font-family: Oxygen, sans-serif;
+    }
+  }
+};
