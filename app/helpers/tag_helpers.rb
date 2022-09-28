@@ -6,7 +6,7 @@ module ViteRails::TagHelpers
   def vite_client_tag
     return unless src = vite_manifest.vite_client_src
 
-    tag.script(src: src, type: 'module')
+    javascript_include_tag(src, type: 'module', extname: false)
   end
 
   # Public: Renders a script tag to enable HMR with React Refresh.
@@ -20,6 +20,14 @@ module ViteRails::TagHelpers
   #   <%= vite_asset_path 'calendar.css' %> # => "/vite/assets/calendar-1016838bab065ae1e122.css"
   def vite_asset_path(name, **options)
     path_to_asset vite_manifest.path_for(name, **options)
+  end
+
+  # Public: Resolves the url for the specified Vite asset.
+  #
+  # Example:
+  #   <%= vite_asset_url 'calendar.css' %> # => "https://example.com/vite/assets/calendar-1016838bab065ae1e122.css"
+  def vite_asset_url(name, **options)
+    url_to_asset vite_manifest.path_for(name, **options)
   end
 
   # Public: Renders a <script> tag for the specified Vite entrypoints.
@@ -60,7 +68,7 @@ module ViteRails::TagHelpers
     image_tag(vite_asset_path(name), options)
   end
 
-  private
+private
 
   # Internal: Returns the current manifest loaded by Vite Ruby.
   def vite_manifest
