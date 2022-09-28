@@ -4,7 +4,6 @@ import Illustration from '../images/features-illustration.svg';
 import FeaturesIcon01 from '../images/features-icon-01.svg';
 import FeaturesIcon02 from '../images/features-icon-02.svg';
 import FeaturesIcon03 from '../images/features-icon-03.svg';
-import FeaturesIcon04 from '../images/features-icon-04.svg';
 
 // Import Swiper
 import Swiper, { Autoplay, Navigation } from 'swiper';

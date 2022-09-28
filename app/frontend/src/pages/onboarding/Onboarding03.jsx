@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import NavBarSmall from './NavBarSmall';
+
 import OnboardingImage from '../../images/motto-velo-electrique-4.png';
 
 function Onboarding03() {
@@ -41,7 +42,36 @@ function Onboarding03() {
               <div className="max-w-md mx-auto">
 
                 <h1 className="text-3xl text-slate-800 font-bold mb-6">Vos informations</h1>
-
+                {/* htmlForm */}
+                <form>
+                  <div className="space-y-4 mb-8">
+                    {/* Company Name */}
+                    <div>
+                      <label className="block text-sm font-medium mb-1" htmlFor="velo-name">Surnom pour votre vélo</label>
+                      <input id="velo-name" className="form-input w-full" type="text" />
+                    </div>
+                    {/* City and Postal Code */}
+                    <div className="flex space-x-4">
+                      <div className="flex-1">
+                        <label className="block text-sm font-medium mb-1" htmlFor="first-name">Prénom</label>
+                        <input id="first-name" className="form-input w-full" type="text" />
+                      </div>
+                      <div className="flex-1">
+                        <label className="block text-sm font-medium mb-1" htmlFor="last-name">Nom</label>
+                        <input id="last-name" className="form-input w-full" type="text" />
+                      </div>
+                    </div>
+                    {/* Street Address */}
+                    <div>
+                      <label className="block text-sm font-medium mb-1" htmlFor="street">Adresse postale</label>
+                      <input id="street" className="form-input w-full" type="text" />
+                    </div>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <Link className="text-sm underline hover:no-underline" to="/onboarding/accessory">Retour</Link>
+                    <Link className="btn bg-indigo-500 hover:bg-indigo-600 text-white ml-auto" to="/onboarding/confirmation">Suivant</Link>
+                  </div>
+                </form>
 
               </div>
             </div>

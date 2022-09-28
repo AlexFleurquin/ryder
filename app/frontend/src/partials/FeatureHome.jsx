@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 
-import FeaturesImage1 from '../images/Motto_Groot.jpeg';
-import FeaturesImage2 from '../../images/motto-velo-electrique-4.png';
-import FeaturesImage3 from '../images/Motto_Groot.jpeg';
+import FeaturesImage1 from '../images/Motto_Groot.jpg';
+import FeaturesImage2 from '../images/Motto_Groot_2.jpg';
+import FeaturesImage3 from '../images/Motto_Groot.jpg';
 
 function FeaturesHome() {
 
