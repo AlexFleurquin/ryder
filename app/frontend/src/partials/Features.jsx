@@ -51,7 +51,7 @@ function Features() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h3 className="h3 font-hkgrotesk mb-4">Découvrez le vélo électrique <span class="bg-gradient-to-r text-transparent bg-clip-text from-pink-400 to-orange-200">connecté</span></h3>
+            <h3 className="h3 font-hkgrotesk mb-4 text-slate-900 dark:text-slate-100">Découvrez le vélo électrique <span class="bg-gradient-to-r text-transparent bg-clip-text from-pink-400 to-orange-200">connecté</span></h3>
             <div className="max-w-2xl mx-auto">
               <p className="text-xl text-slate-500">
               Le vélo Ryder est votre compagnon de route le plus fidèle.
@@ -67,7 +67,7 @@ function Features() {
               <div className="swiper-slide h-auto flex flex-col bg-slate-100 dark:bg-slate-800 p-6 rounded">
                 <img className="mb-3" src={FeaturesIcon01} width="56" height="56" alt="Icon 01" />
                 <div className="grow">
-                  <div className="font-hkgrotesk font-bold text-xl">L'Original</div>
+                  <div className="font-hkgrotesk font-bold text-xl text-slate-900 dark:text-slate-100">L'Original</div>
                   <div className="text-slate-500 mb-3">
                     Un cadre et un esprit ouverts pour un vélo sain.
                   </div>
@@ -81,7 +81,7 @@ function Features() {
               <div className="swiper-slide h-auto flex flex-col bg-slate-100 dark:bg-slate-800 p-6 rounded">
                 <img className="mb-3" src={FeaturesIcon02} width="56" height="56" alt="Icon 02" />
                 <div className="grow">
-                  <div className="font-hkgrotesk font-bold text-xl">Le Confort</div>
+                  <div className="font-hkgrotesk font-bold text-xl text-slate-900 dark:text-slate-100">Le Confort</div>
                   <div className="text-slate-500 mb-3">
                     Le vélo connecté original, transformé et confortable.
                   </div>
@@ -95,7 +95,7 @@ function Features() {
               <div className="swiper-slide h-auto flex flex-col bg-slate-100 dark:bg-slate-800 p-6 rounded">
                 <img className="mb-3" src={FeaturesIcon03} width="56" height="56" alt="Icon 03" />
                 <div className="grow">
-                  <div className="font-hkgrotesk font-bold text-xl">Le Turbo'</div>
+                  <div className="font-hkgrotesk font-bold text-xl text-slate-900 dark:text-slate-100">Le Turbo</div>
                   <div className="text-slate-500 mb-3">
                     Avec son cadre sportif et agile, la monture la plus rapide fait l'unanimité.
                   </div>

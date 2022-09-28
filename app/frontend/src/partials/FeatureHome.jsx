@@ -53,7 +53,7 @@ function FeaturesHome() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesImage1} width="540" height="620" alt="Features home 2 01" />
+                    <img className="md:max-w-none mx-auto rounded-lg shadow-lg" src={FeaturesImage1} width="540" height="620" alt="Features home 2 01" />
                   </div>
                 </Transition>
                 {/* Item 2 */}
@@ -69,7 +69,7 @@ function FeaturesHome() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesImage2} width="540" height="620" alt="Features home 2 02" />
+                    <img className="md:max-w-none mx-auto rounded-lg shadow-lg" src={FeaturesImage2} width="540" height="620" alt="Features home 2 02" />
                   </div>
                 </Transition>
                 {/* Item 3 */}
@@ -85,7 +85,7 @@ function FeaturesHome() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesImage3} width="540" height="620" alt="Features home 2 03" />
+                    <img className="md:max-w-none mx-auto rounded-lg shadow-lg" src={FeaturesImage3} width="540" height="620" alt="Features home 2 03" />
                   </div>
                 </Transition>
               </div>
