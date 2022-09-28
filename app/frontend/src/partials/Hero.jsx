@@ -28,7 +28,7 @@ function Hero() {
               data-aos-delay="200"
             >
               <div>
-                <Link className="btn text-white bg-gray-900 hover:bg-gray-700 w-full shadow-sm group" to="/signup">
+                <Link className="btn text-white bg-gray-900 hover:bg-gray-700 w-full shadow-sm group" to="/onboarding">
                   S'abonner
                 </Link>
               </div>

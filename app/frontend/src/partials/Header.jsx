@@ -52,7 +52,7 @@ function Header() {
                 <Link className="font-medium text-slate-500 hover:text-slate-300 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" to="/signin">Se connecter</Link>
               </li>
               <li className="ml-3">
-                <Link className="btn-sm text-white bg-gray-900 hover:bg-gray-700 w-full shadow-sm group" to="/signup">
+                <Link className="btn-sm text-white bg-gray-900 hover:bg-gray-700 w-full shadow-sm group" to="/onboarding">
                   S'abonner
                 </Link>
               </li>
