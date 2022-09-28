@@ -1,7 +1,9 @@
 import React from 'react';
+
 import Header from '../partials/Header';
 import Hero from '../partials/Hero';
 import Testimonials from '../partials/Testimonials';
+import FeaturesHome from '../partials/FeatureHome';
 import Features from '../partials/Features';
 import Features02 from '../partials/Features02';
 import Integrations from '../partials/Integrations';
@@ -13,7 +15,7 @@ import Footer from '../partials/Footer';
 
 function Home() {
   return (
-    <div className="flex flex-col min-h-screen overflow-hidden">
+    <div className="flex flex-col min-h-screen overflow-hidden ">
 
       <Header />
 
@@ -22,12 +24,13 @@ function Home() {
 
         {/*  Page sections */}
         <Hero />
-        <Testimonials />
+        <FeaturesHome />
         <Features />
         <Features02 />
         <Integrations />
         <Pricing />
         <SingleTestimonial />
+        <Testimonials />
         <Faqs />
         <Cta />
 

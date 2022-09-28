@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Illustration from '../images/hero-illustration.svg';
-import HeroImage from '../images/hero-image.png';
+import HeroImage from '../images/original.png';
 
 function Hero() {
   return (

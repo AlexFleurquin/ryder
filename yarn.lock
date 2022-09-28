@@ -629,6 +629,11 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.1.tgz#841b532c45c758ee546a11d5bd7b7b473c8c30b9"
   integrity sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==
 
+darkreader@^4.9.26:
+  version "4.9.58"
+  resolved "https://registry.yarnpkg.com/darkreader/-/darkreader-4.9.58.tgz#6544d6cb51fa643dc7995d128d32b357e1650e49"
+  integrity sha512-D/JGoJqW3m2AWBLhO+Pev+eThfs+CwRT4bcLb/1zKjql2yVwG0lx8C2XRDdSVGHw4y11n26W7syWoBpUfuhMqQ==
+
 debug@^4.1.0, debug@^4.1.1, debug@^4.3.2, debug@^4.3.4:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
@@ -1819,7 +1824,7 @@ process@^0.11.1:
   resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
   integrity sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==
 
-prop-types@^15.5.10, prop-types@^15.6.2, prop-types@^15.8.1:
+prop-types@^15.5.10, prop-types@^15.6.2, prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -1842,6 +1847,14 @@ quick-lru@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-5.1.1.tgz#366493e6b3e42a3a6885e2e99d18f80fb7a8c932"
   integrity sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
+
+react-darkreader@^1.5.6:
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/react-darkreader/-/react-darkreader-1.5.6.tgz#5953bdd8f95f0a6e45f5f8cbcab7c39c084a3fc8"
+  integrity sha512-z7ld0Jn2wC5B5Eqo+L8PYNWcHpKdLKIOKICbNkvldfC5bQBRqb2RFBYEbz6CfYxcgpXZUq3rJF2tq4wIWUaF0Q==
+  dependencies:
+    darkreader "^4.9.26"
+    react-switch "^6.0.0"
 
 react-dom@^18.2.0:
   version "18.2.0"
@@ -1883,6 +1896,13 @@ react-router@6.4.1:
   integrity sha512-OJASKp5AykDWFewgWUim1vlLr7yfD4vO/h+bSgcP/ix8Md+LMHuAjovA74MQfsfhQJGGN1nHRhwS5qQQbbBt3A==
   dependencies:
     "@remix-run/router" "1.0.1"
+
+react-switch@^6.0.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/react-switch/-/react-switch-6.1.0.tgz#46239535820f6cf1331aecd948ba585d8a7b532a"
+  integrity sha512-cOwQkxtHCOGtoK0KN3kZBPTQjt8P1TTpaor+TS0AJRLfFBIRkgjVIUCwAfvVlW32Bi1BK333rk9y/14suD38SA==
+  dependencies:
+    prop-types "^15.7.2"
 
 react-transition-group@^4.4.2:
   version "4.4.5"
