@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import NavBarSmall from './NavBarSmall';
-
-
 import OnboardingImage from '../../images/motto-velo-electrique-4.png';
 
 function Onboarding03() {
