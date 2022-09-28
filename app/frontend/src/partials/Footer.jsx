@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Logo from './../utils/Logo';
 
 function Footer() {
   return (
@@ -10,124 +11,99 @@ function Footer() {
           {/* 1st block */}
           <div className="sm:col-span-12 lg:col-span-2 lg:max-w-xs">
             <div className="mb-2">
-              {/* Logo */}
-              <Link className="inline-flex" to="/" aria-label="Cruip">
-                <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                    <linearGradient x1="0%" y1="32.443%" x2="104.18%" y2="50%" id="flogo-a">
-                      <stop stopColor="#FFF" stopOpacity=".299" offset="0%" />
-                      <stop stopColor="#7587E4" stopOpacity="0" offset="100%" />
-                    </linearGradient>
-                    <linearGradient x1="18.591%" y1="0%" x2="100%" y2="100%" id="flogo-b">
-                      <stop stopColor="#818CF8" offset="0%" />
-                      <stop stopColor="#C7D2FE" offset="100%" />
-                    </linearGradient>
-                  </defs>
-                  <g fill="none" fillRule="evenodd">
-                    <path fill="#3730A3" d="M16 18.5V32l15.999-9.25V9.25z" />
-                    <path fill="#4F46E5" d="m0 23 16 9V18.501L0 9.251z" />
-                    <path fillOpacity=".64" fill="url(#flogo-a)" d="M16 13 0 23l16 9 16-9z" />
-                    <path fill="url(#flogo-b)" d="M16 0 0 9.25l16 9.25 15.999-9.25z" />
-                  </g>
-                </svg>
-              </Link>
+              <Logo />
             </div>
           </div>
           {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-xs text-slate-200 font-semibold uppercase underline mb-3">Products</h6>
+            <h6 className="text-xs text-slate-600 dark:text-slate-200 font-semibold mb-3">Explorez</h6>
             <ul className="text-sm space-y-2">
               <li>
                 <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
-                  Cube Manage
+                  L'Original
                 </a>
               </li>
               <li>
                 <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
-                  Cube Analyse
+                  Le Confort
                 </a>
               </li>
               <li>
                 <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
-                  Cube Launch
+                  Accessoires
                 </a>
               </li>
               <li>
                 <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
-                  Experimentation
+                  App
                 </a>
               </li>
             </ul>
           </div>
           {/* 3rd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-xs text-slate-200 font-semibold uppercase underline mb-3">Resources</h6>
+            <h6 className="text-xs text-slate-600 dark:text-slate-200 font-semibold mb-3">A propos</h6>
             <ul className="text-sm space-y-2">
               <li>
                 <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
-                  Blog
+                  Histoires
                 </a>
               </li>
               <li>
                 <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
-                  Cheat Sheet
+                  Presse
                 </a>
               </li>
               <li>
                 <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
-                  Channel Partners
+                  Carrières
                 </a>
               </li>
               <li>
                 <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
-                  Affiliate Program
+                  Programme d"affiliation
                 </a>
               </li>
             </ul>
           </div>
           {/* 4th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-xs text-slate-200 font-semibold uppercase underline mb-3">Projects</h6>
+            <h6 className="text-xs text-slate-600 dark:text-slate-200 font-semibold mb-3">Services</h6>
             <ul className="text-sm space-y-2">
               <li>
                 <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
-                  Session Recording
+                  Assurance vol
                 </a>
               </li>
               <li>
                 <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
-                  Feature Flags
+                  Garantie
                 </a>
               </li>
               <li>
                 <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
-                  Heatmaps
-                </a>
-              </li>
-              <li>
-                <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
-                  Correlation Analysis
+                  Méthode de paiements
                 </a>
               </li>
             </ul>
           </div>
           {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-xs text-slate-200 font-semibold uppercase underline mb-3">Company</h6>
+            <h6 className="text-xs text-slate-600 dark:text-slate-200 font-semibold mb-3">Aide</h6>
             <ul className="text-sm space-y-2">
               <li>
                 <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
-                  About Us
+                  Contact
                 </a>
               </li>
               <li>
                 <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
-                  Our Story
+                  FAQ
                 </a>
               </li>
               <li>
                 <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
-                  Work With Us
+                  Livraison
                 </a>
               </li>
             </ul>
@@ -137,31 +113,9 @@ function Footer() {
         <div className="md:flex md:items-center md:justify-between pb-4 md:pb-8">
           {/* Social links */}
           <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
-            <li>
-              <a
-                className="flex justify-center items-center text-indigo-500 hover:text-slate-300 transition duration-150 ease-in-out"
-                href="#0"
-                aria-label="Twitter"
-              >
-                <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M24 11.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H8c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z" />
-                </svg>
-              </a>
-            </li>
             <li className="ml-2">
               <a
-                className="flex justify-center items-center text-indigo-500 hover:text-slate-300 transition duration-150 ease-in-out"
-                href="#0"
-                aria-label="Medium"
-              >
-                <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M23 8H9a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1Zm-1.708 3.791-.858.823a.251.251 0 0 0-.1.241V18.9a.251.251 0 0 0 .1.241l.838.823v.181h-4.215v-.181l.868-.843c.085-.085.085-.11.085-.241v-4.887l-2.41 6.131h-.329l-2.81-6.13V18.1a.567.567 0 0 0 .156.472l1.129 1.37v.181h-3.2v-.181l1.129-1.37a.547.547 0 0 0 .146-.472v-4.749a.416.416 0 0 0-.138-.351l-1-1.209v-.181H13.8l2.4 5.283 2.122-5.283h2.971l-.001.181Z" />
-                </svg>
-              </a>
-            </li>
-            <li className="ml-2">
-              <a
-                className="flex justify-center items-center text-indigo-500 hover:text-slate-300 transition duration-150 ease-in-out"
+                className="flex justify-center items-center text-slate-300 hover:text-orange-300 transition duration-150 ease-in-out"
                 href="#0"
                 aria-label="Github"
               >
@@ -173,7 +127,7 @@ function Footer() {
           </ul>
           {/* Links */}
           <div className="text-sm text-slate-600">
-            <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Terms</a> · <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Privacy Policy</a>
+            <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Conditions générales</a> · <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Politique de protection des données</a>
           </div>
         </div>
       </div>

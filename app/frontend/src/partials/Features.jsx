@@ -51,10 +51,11 @@ function Features() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-hkgrotesk mb-4">Many tools to express your creativity</h2>
+            <h3 className="h3 font-hkgrotesk mb-4">Découvrez le vélo électrique <span class="bg-gradient-to-r text-transparent bg-clip-text from-pink-400 to-orange-200">connecté</span></h3>
             <div className="max-w-2xl mx-auto">
               <p className="text-xl text-slate-500">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.
+              Le vélo Ryder est votre compagnon de route le plus fidèle.
+              <br />Connecté à vous et à chaque itinéraire que vous empruntez.
               </p>
             </div>
           </div>
@@ -63,63 +64,45 @@ function Features() {
           <div className="carousel swiper-container">
             <div className="swiper-wrapper">
               {/* Carousel items */}
-              <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded">
+              <div className="swiper-slide h-auto flex flex-col bg-slate-100 dark:bg-slate-800 p-6 rounded">
                 <img className="mb-3" src={FeaturesIcon01} width="56" height="56" alt="Icon 01" />
                 <div className="grow">
-                  <div className="font-hkgrotesk font-bold text-xl">Collaboration</div>
+                  <div className="font-hkgrotesk font-bold text-xl">L'Original</div>
                   <div className="text-slate-500 mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                    Un cadre et un esprit ouverts pour un vélo sain.
                   </div>
                 </div>
                 <div className="text-right">
                   <a className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group" href="#0">
-                    Learn More{' '}
-                    <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                    Découvrir
                   </a>
                 </div>
               </div>
-              <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded">
+              <div className="swiper-slide h-auto flex flex-col bg-slate-100 dark:bg-slate-800 p-6 rounded">
                 <img className="mb-3" src={FeaturesIcon02} width="56" height="56" alt="Icon 02" />
                 <div className="grow">
-                  <div className="font-hkgrotesk font-bold text-xl">Experiences</div>
+                  <div className="font-hkgrotesk font-bold text-xl">Le Confort</div>
                   <div className="text-slate-500 mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                    Le vélo connecté original, transformé et confortable.
                   </div>
                 </div>
                 <div className="text-right">
                   <a className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group" href="#0">
-                    Learn More{' '}
-                    <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                    Découvrir
                   </a>
                 </div>
               </div>
-              <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded">
+              <div className="swiper-slide h-auto flex flex-col bg-slate-100 dark:bg-slate-800 p-6 rounded">
                 <img className="mb-3" src={FeaturesIcon03} width="56" height="56" alt="Icon 03" />
                 <div className="grow">
-                  <div className="font-hkgrotesk font-bold text-xl">Animation</div>
+                  <div className="font-hkgrotesk font-bold text-xl">Le Turbo'</div>
                   <div className="text-slate-500 mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                    Avec son cadre sportif et agile, la monture la plus rapide fait l'unanimité.
                   </div>
                 </div>
                 <div className="text-right">
                   <a className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group" href="#0">
-                    Learn More{' '}
-                    <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-                  </a>
-                </div>
-              </div>
-              <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded">
-                <img className="mb-3" src={FeaturesIcon04} width="56" height="56" alt="Icon 04" />
-                <div className="grow">
-                  <div className="font-hkgrotesk font-bold text-xl">Modeling</div>
-                  <div className="text-slate-500 mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
-                  </div>
-                </div>
-                <div className="text-right">
-                  <a className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group" href="#0">
-                    Learn More{' '}
-                    <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                    Découvrir
                   </a>
                 </div>
               </div>

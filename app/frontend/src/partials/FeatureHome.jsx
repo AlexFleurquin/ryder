@@ -29,8 +29,9 @@ function FeaturesHome() {
         <div className="py-64 md:py-64">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-playfair-display text-slate-800">Votre vélo électrique en abonnement sans engagement</h2>
+          <div className="max-w-3xl mx-auto text-center pb-24 md:pb-24">
+            <h4 className="h4 font-playfair-display text-slate-800 dark:text-slate-100">Votre vélo électrique</h4>
+            <h3 class="h3 bg-gradient-to-r text-transparent bg-clip-text from-pink-400 to-orange-200">en abonnement sans engagement</h3>
           </div>
 
           {/* Section content */}
@@ -93,8 +94,8 @@ function FeaturesHome() {
             {/* Content */}
             <div className="md:w-7/12 lg:w-1/2" data-aos="fade-up">
               <div className="mb-8 text-center md:text-left">
-                <h3 className="h3 text-slate-800 font-playfair-display mb-3">Chaque trajet devient un plaisir</h3>
-                <p className="text-xl text-slate-500">Profitez d’une gamme de services pour vous concentrer sur l’essentiel : le plaisir de rouler. Aucune mauvaise surprise.</p>
+                <h4 className="h5 text-slate-800 dark:text-slate-100 font-playfair-display mb-3">Chaque trajet devient un plaisir</h4>
+                <p className="text-slate-500">Profitez d’une gamme de services pour vous concentrer sur l’essentiel : le plaisir de rouler. Aucune mauvaise surprise.</p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
