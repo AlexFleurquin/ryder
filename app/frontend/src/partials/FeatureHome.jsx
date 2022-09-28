@@ -1,7 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 
-import FeaturesImage from '../images/features-home-02.png';
+import FeaturesImage1 from '../images/Motto_Groot.jpeg';
+import FeaturesImage2 from '../images/motto-velo-electrique-3.png';
+import FeaturesImage3 from '../images/motto-velo-electrique-1.png';
 
 function FeaturesHome() {
 
@@ -50,7 +52,7 @@ function FeaturesHome() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesImage} width="540" height="620" alt="Features home 2 01" />
+                    <img className="md:max-w-none mx-auto rounded" src={FeaturesImage1} width="540" height="620" alt="Features home 2 01" />
                   </div>
                 </Transition>
                 {/* Item 2 */}
@@ -66,7 +68,7 @@ function FeaturesHome() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesImage} width="540" height="620" alt="Features home 2 02" />
+                    <img className="md:max-w-none mx-auto rounded" src={FeaturesImage2} width="540" height="620" alt="Features home 2 02" />
                   </div>
                 </Transition>
                 {/* Item 3 */}
@@ -82,7 +84,7 @@ function FeaturesHome() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesImage} width="540" height="620" alt="Features home 2 03" />
+                    <img className="md:max-w-none mx-auto rounded" src={FeaturesImage3} width="540" height="620" alt="Features home 2 03" />
                   </div>
                 </Transition>
               </div>

@@ -13,7 +13,10 @@ import AOS from 'aos';
 import Home from './pages/Home';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
+import Demo from './pages/Demo';
 import ResetPassword from './pages/ResetPassword';
+import OnBoarding01 from './pages/onboarding/OnBoarding01';
+import OnBoarding02 from './pages/onboarding/OnBoarding02';
 
 function App() {
 
@@ -40,7 +43,10 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/demo" element={<Demo />} />
         <Route path="/reset-password" element={<ResetPassword />} />
+        <Route path="/onboarding" element={<OnBoarding01 />} />
+        <Route path="/onboarding/couleur" element={<OnBoarding02 />} />
       </Routes>
     </>
   );

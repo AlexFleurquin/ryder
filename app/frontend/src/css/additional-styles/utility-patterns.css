@@ -53,7 +53,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .form-select,
 .form-checkbox,
 .form-radio {
-    @apply bg-slate-800 border border-slate-700 focus:border-indigo-500;
+    @apply border border-slate-200 focus:border-blue-300;
 }
 
 .form-input,

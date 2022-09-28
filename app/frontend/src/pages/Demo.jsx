@@ -7,7 +7,7 @@ import Avatar02 from '../images/avatar-02.jpg';
 import Avatar03 from '../images/avatar-03.jpg';
 import Avatar04 from '../images/avatar-04.jpg';
 
-function SignUp() {
+function Demo() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       {/* Site header */}
@@ -179,4 +179,4 @@ function SignUp() {
   );
 }
 
-export default SignUp;
+export default Demo;

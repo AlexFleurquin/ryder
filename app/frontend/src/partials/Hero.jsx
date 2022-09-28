@@ -33,9 +33,9 @@ function Hero() {
                 </Link>
               </div>
               <div>
-                <a className="btn text-slate-300 hover:bg-slate-600 border-slate-300 w-full shadow-sm" href="#0">
+                <Link className="btn text-slate-300 hover:bg-slate-600 border-slate-300 w-full shadow-sm" to="/demo">
                   Réserver un test
-                </a>
+                </Link>
               </div>
             </div>
           </div>
