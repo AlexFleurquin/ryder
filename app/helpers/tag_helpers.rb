@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # Public: Allows to render HTML tags for scripts and styles processed by Vite.
-module ViteRails::TagHelpers
+module TagHelpers
   # Public: Renders a script tag for vite/client to enable HMR in development.
   def vite_client_tag
     return unless src = vite_manifest.vite_client_src
@@ -68,7 +68,7 @@ module ViteRails::TagHelpers
     image_tag(vite_asset_path(name), options)
   end
 
-private
+  private
 
   # Internal: Returns the current manifest loaded by Vite Ruby.
   def vite_manifest
