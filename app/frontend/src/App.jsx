@@ -17,7 +17,6 @@ import Demo from './pages/Demo';
 import ResetPassword from './pages/ResetPassword';
 import OnBoarding01 from './pages/onboarding/OnBoarding01';
 import OnBoarding02 from './pages/onboarding/OnBoarding02';
-import OnBoarding03 from './pages/onboarding/OnBoarding03';
 import OnBoarding04 from './pages/onboarding/OnBoarding04';
 
 function App() {
@@ -49,7 +48,6 @@ function App() {
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/onboarding" element={<OnBoarding01 />} />
         <Route path="/onboarding/accessory" element={<OnBoarding02 />} />
-        <Route path="/onboarding/informations" element={<OnBoarding03 />} />
         <Route path="/onboarding/confirmation" element={<OnBoarding04 />} />
       </Routes>
     </>
