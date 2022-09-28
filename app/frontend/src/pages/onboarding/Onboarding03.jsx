@@ -28,7 +28,7 @@ function Onboarding03() {
                         <Link className="flex items-center justify-center w-6 h-6 rounded-full text-xs font-semibold bg-indigo-500 text-white" to="/onboarding/accessory">2</Link>
                       </li>
                       <li>
-                        <Link className="flex items-center justify-center w-6 h-6 rounded-full text-xs font-semibold bg-indigo-500 text-white" to="/onboarding/information">3</Link>
+                        <Link className="flex items-center justify-center w-6 h-6 rounded-full text-xs font-semibold bg-indigo-500 text-white" to="/onboarding/informations">3</Link>
                       </li>
                       <li>
                         <Link className="flex items-center justify-center w-6 h-6 rounded-full text-xs font-semibold bg-slate-100 text-slate-500" to="/onboarding/confirmation">4</Link>
@@ -48,18 +48,18 @@ function Onboarding03() {
                   <div className="space-y-4 mb-8">
                     {/* Company Name */}
                     <div>
-                      <label className="block text-sm font-medium mb-1" htmlFor="company-name">Surnom pour votre vélo</label>
-                      <input id="company-name" className="form-input w-full" type="text" />
+                      <label className="block text-sm font-medium mb-1" htmlFor="velo-name">Surnom pour votre vélo</label>
+                      <input id="velo-name" className="form-input w-full" type="text" />
                     </div>
                     {/* City and Postal Code */}
                     <div className="flex space-x-4">
                       <div className="flex-1">
-                        <label className="block text-sm font-medium mb-1" htmlFor="first_name">Prénom</label>
-                        <input id="first_name" className="form-input w-full" type="text" />
+                        <label className="block text-sm font-medium mb-1" htmlFor="first-name">Prénom</label>
+                        <input id="first-name" className="form-input w-full" type="text" />
                       </div>
                       <div className="flex-1">
-                        <label className="block text-sm font-medium mb-1" htmlFor="last_name">Nom</label>
-                        <input id="last_name" className="form-input w-full" type="text" />
+                        <label className="block text-sm font-medium mb-1" htmlFor="last-name">Nom</label>
+                        <input id="last-name" className="form-input w-full" type="text" />
                       </div>
                     </div>
                     {/* Street Address */}
