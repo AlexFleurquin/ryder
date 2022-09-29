@@ -52,10 +52,10 @@ function Testimonials() {
                 </div>
               </header>
               <div className="grow mb-3">
-                <p className="text-slate-500 italic">"The only tool that has the technology to meet our unique and complex needs."</p>
+                <p className="text-slate-500 italic">"Puissance du moteur électrique un peu léger Beau design"</p>
               </div>
               <footer className="text-sm text-slate-500 font-medium">
-                <a className="text-slate-300 hover:text-white transition duration-150 ease-in-out" href="#0">Trustpilot</a> - <span className="text-indigo-500">4.9/5</span>
+                <a className="text-slate-300 hover:text-white transition duration-150 ease-in-out" href="#0">Marie</a> - <span className="text-indigo-500">4.9/5</span>
               </footer>
             </article>
             {/* 2nd Testimonial */}
@@ -99,10 +99,10 @@ function Testimonials() {
                 </div>
               </header>
               <div className="grow mb-3">
-                <p className="text-slate-500 italic">"The only tool that has the technology to meet our unique and complex needs."</p>
+                <p className="text-slate-500 italic">"Super vélo. Très agréable pour rouler en ville sans se préoccuper de changer les vitesses."</p>
               </div>
               <footer className="text-sm text-slate-500 font-medium">
-                <a className="text-slate-300 hover:text-white transition duration-150 ease-in-out" href="#0">Capterra</a> - <span className="text-indigo-500">4.7/5</span>
+                <a className="text-slate-300 hover:text-white transition duration-150 ease-in-out" href="#0">Brice</a> - <span className="text-indigo-500">4.7/5</span>
               </footer>
             </article>
             {/* 3rd Testimonial */}
@@ -146,10 +146,10 @@ function Testimonials() {
                 </div>
               </header>
               <div className="grow mb-3">
-                <p className="text-slate-500 italic">"The only tool that has the technology to meet our unique and complex needs."</p>
+                <p className="text-slate-500 italic">"Je suis entièrement satisfait de mon cowboy 4. C’est un réel plaisir de l’utiliser."</p>
               </div>
               <footer className="text-sm text-slate-500 font-medium">
-                <a className="text-slate-300 hover:text-white transition duration-150 ease-in-out" href="#0">G2</a> - <span className="text-indigo-500">4.9/5</span>
+                <a className="text-slate-300 hover:text-white transition duration-150 ease-in-out" href="#0">Françoise</a> - <span className="text-indigo-500">4.9/5</span>
               </footer>
             </article>
           </div>

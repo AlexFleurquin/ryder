@@ -26,7 +26,6 @@ function Home() {
         <Hero />
         <FeaturesHome />
         <Features />
-
         <SingleTestimonial />
         <Testimonials />
         <Faqs />

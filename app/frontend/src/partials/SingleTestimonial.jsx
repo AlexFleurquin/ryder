@@ -15,13 +15,12 @@ function SingleTestimonial() {
               </svg>
             </div>
             <div className="text-xl text-slate-500 italic mb-3">
-              "I had to work 8 hours a day on one app. With Cube, I only need one or two hours. I just need to work on creatives, because everything
-              else is automated."
+              "Vraiment top, parfaitement conforme aux attentes. Et son esthétique remporte tous les suffrages!"
             </div>
             <div className="text-slate-500 font-medium">
               <a className="text-slate-300">Mirta Jiang</a> -{' '}
               <a className="text-indigo-500" href="#0">
-                Paid Apps
+                L'Original
               </a>
             </div>
           </div>
